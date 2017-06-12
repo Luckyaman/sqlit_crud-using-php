@@ -37,7 +37,7 @@ And now making the Database Connection file “db_connection.php”
 	// Database name
 	$database_name = "my_sqlite.db";
 	// Database Connection
-$db = new SQLite3($database_name);
+	$db = new SQLite3($database_name);
 	?>
 
 Database connection of SQLite is a simple object of SQLite3 Class. Interesting thing you no need to create the database file it will make automatically when you make an object of SQLite3 Class. So, now we made the Database Connection where $db is the handler of Object of SQLite Class.
